@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(./bpg_algeti.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MyFont2";
+    src: url(./WorkSans-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo {
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 10%;
+}
+
+nav {
+    display: inline;
+    font-family: "MyFont"
+}
+ul {
+    padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align: 40px;
+}
+li {
+    display: inline;
+    text-align: center;
+    margin-left: 40px;
+    color: rgb(42, 13, 232);
+}
+li a {
+    text-decoration: none;
+}
+
+.Container1 {
+    margin-left: 9%;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.MainPic {
+    width: 89%;
+}
+.pic_text {
+    margin-left: 5%;
+    position: absolute;
+    top: 2%;
+    left: 20px;
+    text-align: left;
+    font-family: "MyFont"
+}
+
+article {
+    margin-top: 50px;
+    margin-left: 205px;
+    font-family: "MyFont2";
+}
+
+.Container2 {
+    margin-left: 205px;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: rgb(232, 238, 241);
+    width: 45%;
+    display: inline-block;
+    
+}
+
+.box h2 {
+    color: #3b67b2;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-family: "MyFont2";
+}
+/* .box p {
+    font-size: 29px;
+    
+} */
+
+
+.box img {
+    width: 20%;
+    height: 15%;
+    vertical-align: middle;
+    margin-left: 3%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+    
+}
+
+.items {
+    width: 69%;
+    display: inline-block;
+    font-size: large;
+}
+#box1 {
+    margin-right: 3%;
+    padding-right: 1%;
+}
+.fa {
+    /* padding: 20px; */
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    color: #3b67b2;
+    margin-left: 12%;
+  }
+
+
+.fa-youtube {
+    margin-left: 1px;
+}
+footer h2 {
+    display: inline;
+    color: #3b67b2;
+}
+
+
+  

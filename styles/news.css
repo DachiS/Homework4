@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(./bpg_algeti.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MyFont2";
+    src: url(./WorkSans-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo {
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 10%;
+}
+
+nav {
+    display: inline;
+    font-family: "MyFont"
+}
+ul {
+    padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align: 40px;
+}
+li {
+    display: inline;
+    text-align: center;
+    margin-left: 40px;
+    color: rgb(42, 13, 232);
+}
+li a {
+    text-decoration: none;
+}
+
+.fa {
+    /* padding: 20px; */
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    color: #3b67b2;
+    margin-left: 12%;
+  }
+
+
+.fa-youtube {
+    margin-left: 1px;
+}
+footer h2 {
+    display: inline;
+    color: #3b67b2;
+}
+#date_num {
+    font-size: 40px;
+    background-color: #3b67b2;
+    display: inline-block;
+    color: white;
+    padding: 2px;
+    margin: 0px;
+}
+#date_text {
+    margin-top: 8px;
+    color: #3b67b2;
+    font-size: large;
+}
+.dateBlock {
+    margin-left: 10%;
+}
+article {
+    margin-left:10%;
+    vertical-align: top;
+    margin-bottom: 2%;
+}
+article img {
+    height: 30%;
+    width: 20%;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+article p {
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    margin-top: 0px;
+}
