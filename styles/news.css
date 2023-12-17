@@ -58,7 +58,7 @@ footer h2 {
     display: inline;
     color: #3b67b2;
 }
-#date_num {
+.date_num {
     font-size: 40px;
     background-color: #3b67b2;
     display: inline-block;
@@ -66,7 +66,7 @@ footer h2 {
     padding: 2px;
     margin: 0px;
 }
-#date_text {
+.date_text {
     margin-top: 8px;
     color: #3b67b2;
     font-size: large;
